@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="マイクラを使って、楽しくプログラミングを学ぶ授業サイト">
+  <title>CRAFT CODE LAB | マイクラで学ぶプログラミング</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="CRAFT CODE LAB ホーム">
+        <span class="brand-mark" aria-hidden="true">▦</span>
+        <span><strong>CRAFT CODE</strong><small>LAB</small></span>
+      </a>
+      <nav class="global-nav" aria-label="メインナビゲーション">
+        <a href="#about">なんなのコレ？</a>
+        <a href="#world">島へ行く</a>
+        <a href="#missions">Webで遊ぶ</a>
+        <a href="#guide">遊び方</a>
+        <a href="#news">ニュース</a>
+      </nav>
+      <a class="header-cta" href="#world">ワールドを入手 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> MINECRAFT × PROGRAMMING</p>
+          <h1>マイクラで<br><em>あそぼう。</em><br>ついでにコード。</h1>
+          <p class="hero-lead">橋がない？ 村人がこまってる？ じゃあ自分でなんとかしよう。遊んで、失敗して、「あっ！」ってなる。それがプログラミング。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#world">今すぐ冒険する <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#missions">ヒントを盗む <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="ブロックでできた小さなプログラムのイメージ">
+          <div class="game-hud"><span>WORLD 01</span><strong>探索中 <i></i><i></i><i></i></strong></div>
+          <div class="sun"></div>
+          <div class="pixel-cloud cloud-a"></div>
+          <div class="pixel-cloud cloud-b"></div>
+          <div class="mountain mountain-back"></div>
+          <div class="mountain mountain-front"></div>
+          <div class="island">
+            <span class="tree tree-one"></span><span class="tree tree-two"></span>
+            <span class="house"></span><span class="path"></span>
+          </div>
+          <div class="code-card">
+            <span class="code-label">START</span>
+            <code><b>if</b> player.near(block):<br>&nbsp;&nbsp;build(<i>"bridge"</i>)</code>
+            <span class="run-icon">▶</span>
+          </div>
+          <span class="art-caption">BUILD YOUR<br>OWN LOGIC</span>
+          <span class="pixel-block block-one"></span><span class="pixel-block block-two"></span>
+        </div>
+      </div>
+      <div class="hero-ticker"><span>LEARN BY MAKING</span><span>LEARN BY MAKING</span><span>LEARN BY MAKING</span><span>LEARN BY MAKING</span></div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT THE CLASS</p>
+          <h2>遊んでたら、<br><em>頭がよくなる。</em></h2>
+          <p>むずかしい説明はあとまわし。まずはボタンを押す、歩く、壊す、作る。失敗してもゲームオーバーじゃない。もう一回やればいい。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-number">01</span><span class="feature-icon">⌘</span><h3>まず、やってみる</h3><p>説明を読む前に遊べ！ わからなくても、とりあえず押せば何か起きる。</p></article>
+          <article class="feature-card accent-card"><span class="feature-number">02</span><span class="feature-icon">✦</span><h3>失敗？ それ当たり</h3><p>動かない、変になった、爆発した。そこから「なんで？」が始まる。</p></article>
+          <article class="feature-card"><span class="feature-number">03</span><span class="feature-icon">↗</span><h3>ヤバいのを作る</h3><p>正解どおりじゃなくてOK。自分だけの変な仕掛けを作ってみよう。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section world-section" id="world">
+      <div class="container world-grid">
+        <div class="world-preview">
+          <div class="preview-top"><span>WORLD 01</span><span>READY TO PLAY</span></div>
+          <div class="preview-scene"><span class="preview-sun"></span><span class="preview-tree"></span><span class="preview-house"></span><span class="preview-water"></span></div>
+          <div class="preview-bottom"><strong>BEGINNER<br>ISLAND</strong><span>▣ 01</span></div>
+        </div>
+        <div class="world-copy">
+          <p class="eyebrow">02 / DOWNLOAD WORLD</p>
+          <h2>この島、<br><em>事件だらけ。</em></h2>
+          <p>橋はない。宝箱は見つからない。村人は困ってる。キミのミッションは、この島を好き勝手に攻略すること。</p>
+          <div class="version-row"><span>遊べるエディション</span><strong>JAVA / 統合版</strong></div>
+          <div class="version-row"><span>むずかしさ</span><strong>★☆☆ まずはここから</strong></div>
+          <a class="button button-dark" href="#world" aria-label="配布ワールドのダウンロード（準備中）">ワールドをゲット（準備中） <span aria-hidden="true">↓</span></a>
+          <a class="text-link dark-link" href="#guide">遊び方をのぞく <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section missions-section" id="missions">
+      <div class="container">
+        <div class="section-heading mission-heading">
+          <p class="eyebrow">BONUS AREA / WEB PLAYGROUND</p>
+          <h2>わからなかったら、<br><em>ここをチラ見。</em></h2>
+          <p>答えを丸写しするのは、ちょっと待って。まず自分で考えて、それでも無理ならヒントを開こう。</p>
+        </div>
+        <div class="mission-grid">
+          <article class="mission-card mission-orange">
+            <div class="mission-top"><span class="mission-stamp">MISSION</span><span>01</span></div>
+            <span class="mission-emoji" aria-hidden="true">🧭</span>
+            <h3>宝箱どこいった!?</h3>
+            <p>島のどこかにある宝箱を探せ。しらみつぶし？ それとも頭を使う？</p>
+            <details><summary>ヒントを見る</summary><p>「近い・遠い」を目印に、探す場所をちょっとずつしぼれ！</p></details>
+          </article>
+          <article class="mission-card mission-lime">
+            <div class="mission-top"><span class="mission-stamp">TRY IT</span><span>02</span></div>
+            <span class="mission-emoji" aria-hidden="true">⚙</span>
+            <h3>順番を変えたらどうなる？</h3>
+            <p>「歩く」と「曲がる」、先にやるのはどっち？ やってみたらわかる。</p>
+            <details><summary>ヒントを見る</summary><p>歩く → 曲がる と、曲がる → 歩く。同じ場所に着くかな？</p></details>
+          </article>
+          <article class="mission-card mission-dark">
+            <div class="mission-top"><span class="mission-stamp">LEVEL UP</span><span>03</span></div>
+            <span class="mission-emoji" aria-hidden="true">✦</span>
+            <h3>もっとムチャしよう</h3>
+            <p>クリアした仕掛けに、変な動きをひとつ足せ。すごくしても、くだらなくしてもOK。</p>
+            <details><summary>ヒントを見る</summary><p>同じ動きを繰り返す？ それとも条件で動きを変える？</p></details>
+          </article>
+        </div>
+        <div class="pseudo-lab">
+          <div>
+            <p class="eyebrow">PSEUDO CODE LAB</p>
+            <h3>やったことを<br><em>暗号にしてみる。</em></h3>
+            <p>さっきの動きを、ロボットにもわかる言葉に変えてみよう。正解はひとつじゃないぞ。</p>
+          </div>
+          <div class="pseudo-code" aria-label="疑似言語の例">
+            <span class="code-comment">// 橋をつくる</span>
+            <span><b>もし</b> 目の前に穴がある <b>なら</b>：</span>
+            <span class="indent">ブロックを置く</span>
+            <span class="indent">一歩すすむ</span>
+            <span class="code-comment">// これを繰り返すと？</span>
+          </div>
+        </div>
+        <div class="random-quest" id="random-quest">
+          <div class="quest-icon" aria-hidden="true">?</div>
+          <div><p class="eyebrow">CAN YOU SOLVE THIS?</p><h3 id="quest-title">ひまならクエストやる？</h3><p id="quest-text">ボタンを押せ。変なお題が出てくるぞ。</p></div>
+          <button class="button quest-button" type="button" id="quest-button">やってみる <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide-section" id="guide">
+      <div class="container">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">03 / LEARNING GUIDE</p>
+          <h2>とりあえず<br><em>やってみろ。</em></h2>
+        </div>
+        <div class="steps">
+          <article class="step"><span>01</span><div><h3>ワールドを入れる</h3><p>ダウンロードして、マイクラにぶちこむ。細かいことはあとでいい。</p><a href="#world">入れ方を見る →</a></div></article>
+          <article class="step"><span>02</span><div><h3>好きに暴れる</h3><p>ワールドの課題をやる。ズルしてもいいし、変な方法でもいい。まず動かせ。</p><a href="#lessons">ミッションを見る →</a></div></article>
+          <article class="step"><span>03</span><div><h3>「なんで？」を探す</h3><p>うまくいった理由、失敗した理由をあとから考える。それがコードの入口だ。</p><a href="#lessons">ネタを探す →</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section lessons-section" id="lessons">
+      <div class="container lessons-grid">
+        <div>
+          <p class="eyebrow">04 / LESSONS</p>
+          <h2>もっと<br><em>やらかす。</em></h2>
+          <p>気になるやつから読めばOK。順番も正解もない。面白そうなところをクリック。</p>
+        </div>
+        <div class="topic-list">
+          <a href="#lessons"><span>01</span><strong>そもそもコードって何？</strong><span>↗</span></a>
+          <a href="#lessons"><span>02</span><strong>命令をめちゃくちゃに並べる</strong><span>↗</span></a>
+          <a href="#lessons"><span>03</span><strong>条件で動きを変えてみる</strong><span>↗</span></a>
+          <a href="#lessons"><span>04</span><strong>詰んだときの救済ヒント</strong><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news-section" id="news">
+      <div class="container news-grid">
+        <div><p class="eyebrow">05 / NEWS</p><h2>最近の動き</h2></div>
+        <div class="news-list">
+          <a href="#news"><time datetime="2026-11-10">2026.11.10</time><span class="tag">INFO</span><strong>この島、ひとまずオープン。</strong><span>↗</span></a>
+          <a href="#news"><time datetime="2026-11-10">2026.11.10</time><span class="tag">UPDATE</span><strong>まだ工事中。変な仕掛けを増やしてます。</strong><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">▦</span><span><strong>CRAFT CODE</strong><small>LAB</small></span></a>
+      <p>Learn by making. Build your own logic.</p>
+      <small>© 2026 CRAFT CODE LAB</small>
+    </div>
+  </footer>
+  <script>
+    const quests = [
+      ['村人を助けよう', '「前に3歩、右に曲がる」を、できるだけ短い命令にしてみよう。'],
+      ['秘密の扉を開けよう', 'スイッチを見つけたら開く、見つからなければ探す。どう表せる？'],
+      ['橋をもっと長く', '同じ動きを5回くり返すなら、どんな仕組みが使えそう？']
+    ];
+    const questButton = document.querySelector('#quest-button');
+    let questIndex = 0;
+    questButton?.addEventListener('click', () => {
+      questIndex = (questIndex + 1) % quests.length;
+      document.querySelector('#quest-title').textContent = quests[questIndex][0];
+      document.querySelector('#quest-text').textContent = quests[questIndex][1];
+      questButton.innerHTML = 'もう一問 <span aria-hidden="true">↗</span>';
+    });
+  </script>
+</body>
+</html>
